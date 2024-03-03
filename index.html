@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount-Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      form {
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        background-color: lemonchiffon;
+        width: fit-content;
+        align-content: center;
+        height: fit-content;
+        
+      }
+      
+      td {
+            padding: 10px 10px;
+            font-weight: bold;
+            font-size: larger;
+            font-family: "Abel", sans-serif;
+
+      }
+      input[type="text"], input[type="number"] {
+        border-radius: 5px;
+        padding: 5px 150px;      
+      }
+      button[type="submit"] {
+        padding: 5px 180px;
+        font-size: large;
+        font-weight: bold;
+        background-color: chartreuse;
+      }
+      h2 {
+        font-family: "Noto Serif", serif;
+        }
+      #alpha {
+        font-family: "Caveat", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+        <h2 style="text-align: center;" >DISCOUNT CALCULATOR</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">Enter the big amount and discount in Percentage</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">Bill Amount</label></td> 
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Discount Percentage</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Calulate</button></td>
+                </tr>
+                <tr>
+                    <td id="alpha"><label for="">Total Discount Amount</label></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </form>
+  </body>
+</html>
